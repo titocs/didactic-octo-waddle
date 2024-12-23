@@ -21,7 +21,7 @@
 	}
 
 	body {
-		background-color: rgb(195, 112, 125);
+		background-color: rgb(208, 108, 123);
 	}
 
 	.explosion {
@@ -115,6 +115,34 @@
 	#firework3 .explosion::before {
 		animation: explosion 2s .4s ease-in-out infinite;
 	}
+
+	.container {
+		padding: 20px 20px 0;
+		max-width: 960px;
+		margin: 0 auto;
+	}
+
+	h1 {
+		margin: 0;
+		text-align: center;
+		font-size: 15px;
+		overflow: hidden;
+		line-height: 1;
+	}
+
+	h1 span {
+  display: block;
+  animation: reveal 1.5s cubic-bezier(0.77, 0, 0.175, 1) 0.5s;
+}
+
+@keyframes reveal {
+  0% {
+    transform: translate(0,100%);
+  }
+  100% {
+    transform: translate(0,0);
+  }
+}
 	</style>
 </head>
 
@@ -162,8 +190,14 @@
 		<div class="explosion"></div>
 	</div>
 	
-	<div class="mx-5 pt-32">
+	<div class="mx-5 pt-28">
 		<p class="text-center">hope we’re blessed with a bond that grows deeper every day. May we always find strength in each other and create a beautiful journey together ^ ^</p>
+
+	</div>
+	<div class="container">
+		<h1 class="text-center">
+			<span>24 - 12 - 2024</span>
+		</h1>
 	</div>
 </body>
 
