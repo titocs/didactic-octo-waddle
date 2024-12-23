@@ -857,20 +857,20 @@ video {
   background-image: url('../img/bg-sidebar-mobile.jpg');
 }
 
-.bg-\[url\(\'\.\.\/img\/asets\/konser\.jpeg\'\)\] {
-  background-image: url('../img/asets/konser.jpeg');
+.bg-\[url\(\'\.\.\/img\/asets\/konser\.webp\'\)\] {
+  background-image: url('../img/asets/konser.webp');
 }
 
 .bg-\[url\(\'\.\.\/img\/asets\/pik\.webp\'\)\] {
   background-image: url('../img/asets/pik.webp');
 }
 
-.bg-\[url\(\'\.\.\/img\/asets\/tmii\.jpg\'\)\] {
-  background-image: url('../img/asets/tmii.jpg');
+.bg-\[url\(\'\.\.\/img\/asets\/tmii\.webp\'\)\] {
+  background-image: url('../img/asets/tmii.webp');
 }
 
-.bg-\[url\(\'\.\.\/img\/asets\/jkrtaaqua\.jpg\'\)\] {
-  background-image: url('../img/asets/jkrtaaqua.jpg');
+.bg-\[url\(\'\.\.\/img\/asets\/jkrtaaqua\.webp\'\)\] {
+  background-image: url('../img/asets/jkrtaaqua.webp');
 }
 
 .bg-\[url\(\'\.\.\/img\/asets\/seaworld\.jpg\'\)\] {
@@ -887,6 +887,22 @@ video {
 
 .bg-\[url\(\'\.\.\/img\/asets\/bianglala\.jpg\'\)\] {
   background-image: url('../img/asets/bianglala.jpg');
+}
+
+.bg-\[url\(\'\.\.\/img\/asets\/jkrtaaqua\.jpg\'\)\] {
+  background-image: url('../img/asets/jkrtaaqua.jpg');
+}
+
+.bg-\[url\(\'\.\.\/img\/asets\/seaworld\.webp\'\)\] {
+  background-image: url('../img/asets/seaworld.webp');
+}
+
+.bg-\[url\(\'\.\.\/img\/asets\/semesta\.webp\'\)\] {
+  background-image: url('../img/asets/semesta.webp');
+}
+
+.bg-\[url\(\'\.\.\/img\/asets\/bianglala\.webp\'\)\] {
+  background-image: url('../img/asets/bianglala.webp');
 }
 
 .bg-cover {
