@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="./src/output.css">
+	<link href="https://cdn.jsdelivr.net/npm/flowbite@2.5.2/dist/flowbite.min.css"  rel="stylesheet" />
+	<title>Lets See</title>
+	<style>
+		::-webkit-scrollbar {
+			width: 0;
+			background: transparent;
+		}
+	</style>
+</head>
+<body class="font-main-font h-screen">
+	<header class="h-[10rem] w-full bg-[url('../img/bg-sidebar-mobile.jpg')] bg-center bg-cover bg-no-repeat">
+		<div class="flex justify-center gap-3 pt-14">
+			<div class="rounded-full text-white border border-white text-center leading-10 h-10 w-10">1</div>
+			<div class="rounded-full text-black bg-white text-center leading-10 h-10 w-10">2</div>
+			<div class="rounded-full text-white border border-white text-center leading-10 h-10 w-10">3</div>
+			<div class="rounded-full text-white border border-white text-center leading-10 h-10 w-10">4</div>
+			<div class="rounded-full text-white border border-white text-center leading-10 h-10 w-10">5</div>
+		</div>
+	</header>
+	
+	<main class="py-5">
+		<h1 class="font-bold text-center text-xl mb-4">Our Gallery</h1>
+		<!-- ################## -->
+		<div id="default-carousel" class="relative w-full px-6" data-carousel="slide">
+			<!-- Carousel wrapper -->
+			<div class="relative h-56 overflow-hidden rounded-lg md:h-96">
+					 <!-- Item 1 -->
+					<div class="hidden duration-700 ease-in-out" data-carousel-item>
+							<img src="./img/galeri/image-1.jpeg" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
+					</div>
+					<!-- Item 2 -->
+					<!-- <div class="hidden duration-700 ease-in-out" data-carousel-item>
+							<img src="./img/galeri/image-2.jpeg" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
+					</div> -->
+					<!-- Item 3 -->
+					<div class="hidden duration-700 ease-in-out" data-carousel-item>
+							<img src="./img/galeri/image-3.jpeg" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
+					</div>
+					<!-- Item 4 -->
+					<div class="hidden duration-700 ease-in-out" data-carousel-item>
+							<img src="./img/galeri/image-4.jpeg" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
+					</div>
+					<!-- Item 5 -->
+					<div class="hidden duration-700 ease-in-out" data-carousel-item>
+							<img src="./img/galeri/image-5.jpeg" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
+					</div>
+					<div class="hidden duration-700 ease-in-out" data-carousel-item>
+							<img src="./img/galeri/image-6.jpeg" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
+					</div>
+					<div class="hidden duration-700 ease-in-out" data-carousel-item>
+							<img src="./img/galeri/image-7.jpg" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
+					</div>
+					<div class="hidden duration-700 ease-in-out" data-carousel-item>
+							<img src="./img/galeri/image-8.jpg" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
+					</div>
+			</div>
+			<!-- Slider controls -->
+			<button type="button" class="absolute top-0 start-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none" data-carousel-prev>
+					<span class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none">
+							<svg class="w-4 h-4 text-white dark:text-gray-800 rtl:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
+									<path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 1 1 5l4 4"/>
+							</svg>
+							<span class="sr-only">Previous</span>
+					</span>
+			</button>
+			<button type="button" class="absolute top-0 end-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none" data-carousel-next>
+					<span class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none">
+							<svg class="w-4 h-4 text-white dark:text-gray-800 rtl:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
+									<path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 9 4-4-4-4"/>
+							</svg>
+							<span class="sr-only">Next</span>
+					</span>
+			</button>
+		</div>
+	</main>
+
+	<div class="bg-white fixed w-full bottom-0 flex justify-between p-5 border-t-2 border-slate-400">
+		<button onclick="history.back();" class="bg-slate-400  text-white p-2 px-3 rounded-md text-sm">Go Back</button>
+		<a class="block rounded-md text-sm p-2 px-4 bg-pink-400 text-white" href="./page3.html">Next</a>
+	</div>
+
+	<script src="https://cdn.jsdelivr.net/npm/flowbite@2.5.2/dist/flowbite.min.js"></script>
+</body>
+</html>

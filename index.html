@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="./src/output.css">
+	<link href="https://cdn.jsdelivr.net/npm/flowbite@2.5.2/dist/flowbite.min.css"  rel="stylesheet" />
+	<title>Lets See.</title>
+	
+	<style>
+		::-webkit-scrollbar {
+			width: 0;
+			background: transparent;
+		}
+		header {
+			background: url('../img/bg-sidebar-mobile.jpg');
+		}
+		.image-center {
+			width: 200px;
+			margin: auto;
+		}
+	</style>
+</head>
+
+<body class="font-main-font h-screen">
+	<header class="h-[10rem] w-full bg-center bg-cover bg-no-repeat">
+		<div class="flex justify-center gap-3 pt-14">
+			<div class="rounded-full text-black bg-white text-center leading-10 h-10 w-10">1</div>
+			<div class="rounded-full text-white border border-white text-center leading-10 h-10 w-10">2</div>
+			<div class="rounded-full text-white border border-white text-center leading-10 h-10 w-10">3</div>
+			<div class="rounded-full text-white border border-white text-center leading-10 h-10 w-10">4</div>
+			<div class="rounded-full text-white border border-white text-center leading-10 h-10 w-10">5</div>
+		</div>
+	</header>
+
+	<main class="p-5">
+		<h1 class="font-bold text-center text-xl my-[2rem]">Dedicated to: Gia</h1>
+		<!-- ################## -->
+		<img class="mb-20 w-5 image-center" src="img/icon/pink-icon.png" alt="">
+	</main>
+
+	<div class="fixed bg-white w-full bottom-0 flex justify-between p-5 border-t-2 border-slate-400">
+		<button onclick="history.back();" class="invisible bg-slate-400  text-white p-2 px-3 rounded-md text-sm">Go Back</button>
+		<a class="block rounded-md text-sm p-2 px-4 bg-pink-400 text-white" href="./page2.html">Next</a>
+	</div>
+	<script>
+		const mediaQuery = window.matchMedia('(min-width: 450px)');
+		const myFunction = (x) => {
+			if (x.matches) {
+				alert('PAKEEE HP, JANGAN PAKE LAPTOPPP !!');
+				document.querySelector('body').innerHTML = '';
+				return;
+			}
+			// else{
+			// 	document.querySelector('body').innerHTML = `
+			// 	<header class="h-[10rem] w-full bg-center bg-[url('../img/bg-sidebar-mobile.jpg')] bg-cover bg-no-repeat">
+			// 		<div class="flex justify-center gap-3 pt-14">
+			// 			<div class="rounded-full text-black bg-white text-center leading-10 h-10 w-10">1</div>
+			// 			<div class="rounded-full text-white border border-white text-center leading-10 h-10 w-10">2</div>
+			// 			<div class="rounded-full text-white border border-white text-center leading-10 h-10 w-10">3</div>
+			// 			<div class="rounded-full text-white border border-white text-center leading-10 h-10 w-10">4</div>
+			// 			<div class="rounded-full text-white border border-white text-center leading-10 h-10 w-10">5</div>
+			// 		</div>
+			// 	</header>
+
+			// 	<main class="p-5">
+			// 		<h1 class="font-bold text-center text-xl my-[2rem]">Dedicated to: Gia</h1>
+			// 		<!-- ################## -->
+			// 		<img class="mb-20 w-5 image-center" src="img/icon/pink-icon.png" alt="">
+			// 	</main>
+
+			// 	<div class="fixed bg-white w-full bottom-0 flex justify-between p-5 border-t-2 border-slate-400">
+			// 		<button onclick="history.back();" class="invisible bg-slate-400  text-white p-2 px-3 rounded-md text-sm">Go Back</button>
+			// 		<a class="block rounded-md text-sm p-2 px-4 bg-pink-400 text-white" href="./page2.html">Next</a>
+			// 	</div>
+			// 	`;
+			// }
+		};
+		myFunction(mediaQuery);
+		mediaQuery.addListener(myFunction);
+	</script>
+	
+</body>
+</html>
