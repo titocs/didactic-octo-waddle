@@ -614,6 +614,11 @@ video {
   margin-right: 1.25rem;
 }
 
+.mx-auto {
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .mb-20 {
   margin-bottom: 5rem;
 }
@@ -704,6 +709,10 @@ video {
 
 .w-7 {
   width: 1.75rem;
+}
+
+.w-\[284px\] {
+  width: 284px;
 }
 
 .flex-shrink-0 {
@@ -873,28 +882,12 @@ video {
   background-image: url('../img/asets/jkrtaaqua.webp');
 }
 
-.bg-\[url\(\'\.\.\/img\/asets\/seaworld\.jpg\'\)\] {
-  background-image: url('../img/asets/seaworld.jpg');
+.bg-\[url\(\'\.\.\/img\/asets\/seaworld\.webp\'\)\] {
+  background-image: url('../img/asets/seaworld.webp');
 }
 
 .bg-\[url\(\'\.\.\/img\/asets\/dufan\.webp\'\)\] {
   background-image: url('../img/asets/dufan.webp');
-}
-
-.bg-\[url\(\'\.\.\/img\/asets\/semesta\.jpg\'\)\] {
-  background-image: url('../img/asets/semesta.jpg');
-}
-
-.bg-\[url\(\'\.\.\/img\/asets\/bianglala\.jpg\'\)\] {
-  background-image: url('../img/asets/bianglala.jpg');
-}
-
-.bg-\[url\(\'\.\.\/img\/asets\/jkrtaaqua\.jpg\'\)\] {
-  background-image: url('../img/asets/jkrtaaqua.jpg');
-}
-
-.bg-\[url\(\'\.\.\/img\/asets\/seaworld\.webp\'\)\] {
-  background-image: url('../img/asets/seaworld.webp');
 }
 
 .bg-\[url\(\'\.\.\/img\/asets\/semesta\.webp\'\)\] {
